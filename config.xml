@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://notinept.me/radialbars" version="1.0.0" height="360" width="360" viewmodes="maximized">
+    <tizen:application id="9U1UUln55n.BasicBars" package="9U1UUln55n" required_version="2.3.1" ambient_support="disable"/>
+    <author href="https://notinept.me" email="notinept@gmail.com">not-inept</author>
+    <tizen:category name="http://tizen.org/category/wearable_clock"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <icon src="icon.png"/>
+    <name>Radial Bars</name>
+    <tizen:privilege name="http://tizen.org/privilege/power"/>
+    <tizen:privilege name="http://tizen.org/privilege/alarm"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="enable" encryption="disable" hwkey-event="enable"/>
+</widget>
